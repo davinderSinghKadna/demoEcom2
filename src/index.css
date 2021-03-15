@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display :flex;
+  flex-direction: column;
+}
+#logo {
+  flex: 2 1 40rem;
+  font-family: 'Pattaya', sans-serif;
+  font-weight: 400;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  color: #9b9999;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: center;
+  margin: auto;
+}
+.product{
+  margin: .5rem;
+  padding: .2rem;
+  border: #9b9999 solid;
+}
+.link{
+  padding: 1rem;
+}

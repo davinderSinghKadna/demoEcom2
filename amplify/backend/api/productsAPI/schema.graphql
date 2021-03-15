@@ -1,0 +1,9 @@
+type Products @model {
+  id: ID!
+  sku: Int
+  name: String!
+  price: Int
+  description: String
+  category: String
+  url: String
+}
