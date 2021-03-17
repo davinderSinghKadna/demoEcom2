@@ -1,0 +1,48 @@
+{
+    "paths": [
+        {
+            "name": "/createusers",
+            "lambdaFunction": "userfunction",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH"
+                ]
+            },
+            "policyResourceName": "/createusers"
+        }
+    ],
+    "resourceName": "userservices",
+    "apiName": "userservices",
+    "functionArns": [
+        {
+            "lambdaFunction": "userfunction"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-userservice-dev-154711-authRole",
+        "unAuthRoleName": "amplify-userservice-dev-154711-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "userfunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

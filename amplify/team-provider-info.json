@@ -10,6 +10,41 @@
       "StackName": "amplify-demoecom-dev-140437",
       "StackId": "arn:aws:cloudformation:us-east-1:147094247395:stack/amplify-demoecom-dev-140437/f50e57d0-83d6-11eb-ac17-128e31f6ab25",
       "AmplifyAppId": "d3gooc2q942r9p"
+    },
+    "categories": {
+      "auth": {
+        "userservice47ed4425": {}
+      },
+      "function": {
+        "userfunction": {
+          "deploymentBucketName": "amplify-userservice-dev-154711-deployment",
+          "s3Key": "amplify-builds/userfunction-682f2b39564a4b303050-build.zip"
+        }
+      }
+    }
+  },
+  "develop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-demoecom-develop-201410-authRole",
+      "UnauthRoleArn": "arn:aws:iam::147094247395:role/amplify-demoecom-develop-201410-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::147094247395:role/amplify-demoecom-develop-201410-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-demoecom-develop-201410-deployment",
+      "UnauthRoleName": "amplify-demoecom-develop-201410-unauthRole",
+      "StackName": "amplify-demoecom-develop-201410",
+      "StackId": "arn:aws:cloudformation:eu-west-2:147094247395:stack/amplify-demoecom-develop-201410/e9413810-859c-11eb-be0c-0643b76cd30e",
+      "AmplifyAppId": "d3r8k58qdics55"
+    },
+    "categories": {
+      "auth": {
+        "userservice47ed4425": {}
+      },
+      "function": {
+        "userfunction": {
+          "deploymentBucketName": "amplify-demoecom-develop-201410-deployment",
+          "s3Key": "amplify-builds/userfunction-682f2b39564a4b303050-build.zip"
+        }
+      }
     }
   }
 }

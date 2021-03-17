@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as ReactBootStrap from 'react-bootstrap';
+import UserloginModel from '../pages/UserloginModel';
 
 function Header(){
     return (
@@ -10,6 +11,7 @@ function Header(){
             <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
                 <ReactBootStrap.Nav className="mr-auto">
                     <ReactBootStrap.Nav.Link href="/cart">Cart</ReactBootStrap.Nav.Link>
+                    <UserloginModel />
                     <ReactBootStrap.NavDropdown title="Category" id="basic-nav-dropdown"  >
                         <ReactBootStrap.NavDropdown.Item href="/rings" id="rings">Rings</ReactBootStrap.NavDropdown.Item>
                         <ReactBootStrap.NavDropdown.Item href="/necklace" id="necklace">Necklace</ReactBootStrap.NavDropdown.Item>
